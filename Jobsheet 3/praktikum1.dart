@@ -13,12 +13,12 @@ void main(){
     if (test == "test2") print("Test2 again");
     //Setelah penambahan kode pada langkah 3
 
-  // String test = "true";
-  
-  // if (test == "true") {
-  //   print("Kebenaran");
-  // } else {
-  //   print("Bukan Kebenaran");
-  // }
+    String test1 = "true";
+    
+    if (test1 == "true") {
+      print("Kebenaran");
+    } else {
+      print("Bukan Kebenaran");
+    }
 
 }
