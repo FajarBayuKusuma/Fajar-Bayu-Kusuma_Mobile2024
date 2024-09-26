@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
   List<String> primes = findPrimesUpTo(209);
   print(primes);
