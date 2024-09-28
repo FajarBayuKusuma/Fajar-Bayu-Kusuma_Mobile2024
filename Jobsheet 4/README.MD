@@ -59,3 +59,58 @@ tidak terjadi eror, hasilnya seperti ini
 - Langkah 3 \
 Sintaks Code
  ![Praktikum 4](./Praktikum%203.2.png "Praktikum 4")
+ eror terjadi kerna tidak ada type data pada vriable list1, sehingga saat akan di running mengalama eror, lalu karena list ini memiliki nilai int yang pasti dan bilangan bulat, maka tidak perlu menggunakan tanda ? atau safety null.
+ Pembenaran Kode
+![Praktikum 4](./Praktikum%203.2.png "Praktikum 4")
+
+---
+**Praktikum 5**
+- Langkah 1 dan 2 \
+tidak terjadi eror, hasilnya seperti ini
+![Praktikum 5](./Praktikum%205.1.png "Praktikum 5")
+
+- Langkah 3 \
+Sintaks Code
+ ![Praktikum 5](./Praktikum%203.2.png "Praktikum 5")
+ eror terjadi kerna tidak ada type data pada vriable list1, sehingga saat akan di running mengalama eror, lalu karena list ini memiliki nilai int yang pasti dan bilangan bulat, maka tidak perlu menggunakan tanda ? atau safety null.
+ Pembenaran Kode
+![Praktikum 5](./Praktikum%203.2.png "Praktikum 5")
+
+---
+**2. Jelaskan yang dimaksud Functions dalam bahasa Dart!**
+---
+- Jawab Dalam bahasa Dart, Functions (fungsi) adalah blok kode yang dapat menerima argumen, melakukan operasi, dan mengembalikan nilai. Fungsi digunakan untuk mengorganisir dan mengelompokkan kode menjadi unit yang dapat digunakan dan dipanggil secara berulang.
+---
+**3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!**
+--
+- jawab Dalam bahasa Dart, terdapat dua jenis parameter yang dapat digunakan dalam deklarasi fungsi, yaitu parameter posisi (positional parameter) dan parameter bernama (named parameter).
+Parameter Posisi (Positional Parameter):
+
+- Parameter posisi adalah parameter yang dideklarasikan berdasarkan urutan posisinya saat memanggil fungsi.
+
+- Argumen yang dikirimkan saat memanggil fungsi akan diteruskan ke parameter posisi sesuai dengan urutan posisinya.
+
+- Parameter posisi bersifat wajib diisi saat memanggil fungsi, kecuali jika ada nilai default yang ditentukan.
+
+- Parameter Bernama (Named Parameter):
+
+- Parameter bernama adalah parameter yang dideklarasikan dengan menggunakan sintaks nama_parameter: nilai.
+
+- Ketika memanggil fungsi, argumen dikirimkan dengan menyebutkan nama parameternya, diikuti dengan tanda titik dua (:) dan nilai yang ingin diteruskan. Penggunaan parameter bernama bersifat opsional dan dapat diabaikan saat memanggil fungsi jika ada nilai default yang ditentukan.
+
+---
+**4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!**
+- jawaban 
+- Dalam bahasa pemrograman, konsep "first-class objects" (objek kelas satu) mengacu pada kemampuan untuk memperlakukan fungsi sebagai nilai yang dapat disimpan dalam variabel, dilewatkan sebagai argumen ke fungsi lain, dan dikembalikan sebagai nilai dari fungsi lain. Dalam konteks ini, fungsi diperlakukan seperti objek lainnya dalam bahasa tersebut.
+---
+**5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!** 
+- jawab Anonymous functions, juga dikenal sebagai lambda functions atau function literals, adalah fungsi yang tidak memiliki nama.
+- penjelasan
+- tanda kurung kurawal {} dan kata kunci => untuk mendefinisikan anonymous function. Fungsi anonim tersebut menggandakan setiap elemen dalam list numbers dan mengembalikan hasilnya. Kemudian, metode toList() untuk mengonversi hasil iterable menjadi list, dan hasilnya dicetak menggunakan print().
+
+---
+**6. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!** 
+- Jawab Lexical scope dan lexical closures adalah konsep penting dalam pemrograman yang terkait dengan pengaturan dan akses variabel dalam suatu lingkup.
+- Lexical Scope: Lexical scope (lingkup leksikal) mengacu pada cara variabel diikat (bound) dalam sebuah program berdasarkan tempat atau posisi di dalam kode.
+---
+**7. Jelaskan dengan contoh cara membuat return multiple value di Functions!**
