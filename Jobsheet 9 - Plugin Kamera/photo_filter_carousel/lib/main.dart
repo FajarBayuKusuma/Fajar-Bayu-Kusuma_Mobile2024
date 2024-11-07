@@ -15,8 +15,8 @@ Future<void> main() async {
 
   // Jalankan aplikasi Flutter
   runApp(
-    const MaterialApp(
-      home: PhotoFilterCarousel(),
+    MaterialApp(
+      home: TakePictureScreen( camera: firstCamera),
       debugShowCheckedModeBanner: false,
     ),
   );

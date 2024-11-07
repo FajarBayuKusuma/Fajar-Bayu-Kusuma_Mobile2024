@@ -1,8 +1,8 @@
-// A screen that allows users to take a picture using a given camera.
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_filter_carousel/displaypicture_screen.dart';
 
+// A screen that allows users to take a picture using a given camera.
 class TakePictureScreen extends StatefulWidget {
   const TakePictureScreen({
     super.key,
@@ -45,7 +45,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Fajar Bayu Kusuma - 2241720085')),
+      appBar: AppBar(title: const Text('Take a picture - 2241720085')),
       // You must wait until the controller is initialized before displaying the
       // camera preview. Use a FutureBuilder to display a loading spinner until the
       // controller has finished initializing.
@@ -61,7 +61,6 @@ class TakePictureScreenState extends State<TakePictureScreen> {
           }
         },
       ),
-      // Add FloatingActionButton after the body
       floatingActionButton: FloatingActionButton(
         // Provide an onPressed callback.
         onPressed: () async {
@@ -71,11 +70,12 @@ class TakePictureScreenState extends State<TakePictureScreen> {
             // Ensure that the camera is initialized.
             await _initializeControllerFuture;
 
-            // Attempt to take a picture and then get the location
-            // where the image file is saved.
+            // Attempt to take a picture and get the file `image`
+            // where it was saved.
             final image = await _controller.takePicture();
 
-            // You can handle the image here, like saving or displaying it
+            if (!context.mounted) return;
+
             // If the picture was taken, display it on a new screen.
             await Navigator.of(context).push(
               MaterialPageRoute(
