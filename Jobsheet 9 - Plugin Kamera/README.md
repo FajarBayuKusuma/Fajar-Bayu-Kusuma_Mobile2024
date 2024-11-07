@@ -27,6 +27,7 @@ Mohon maaf pak Habibi. untuk yang satu ini saya tidak sempat melakukan screensho
 
 1. Hasil
 ![Praktikum 2](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20050538.png "Hasil") \
+
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20050555.png "Main") \
 ---
 
@@ -42,8 +43,10 @@ A. Main
 
 B. Display Camera
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063555.png "Display") \
+
 C. Take Picture
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063546.png "Main") \
+
 D. Filter Carousel
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063632.png "Main") \
 
