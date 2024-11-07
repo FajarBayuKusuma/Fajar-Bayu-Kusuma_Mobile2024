@@ -38,17 +38,22 @@ code. Saya cantumkan beberapa kode saja
 
 ![Tugas](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063611.png "Code") \
 
+
 A. Main
-    ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063534.png "Main") \
+![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063534.png "Main") \
+
 
 B. Display Camera
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063555.png "Display") \
 
+
 C. Take Picture
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063546.png "Main") \
 
+
 D. Filter Carousel
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20063632.png "Main") \
+
 
 Hasil
 ![Praktikum 1](../Jobsheet%209%20-%20Plugin%20Kamera/img/Screenshot%202024-11-08%20061940.png "Main") \
