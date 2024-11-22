@@ -5,12 +5,13 @@
 ## Getting Started
 **Tugas Praktikum 1: Dasar State dengan Model-View**
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
+![Hasil](../doc/Praktikum1.gif)
 
-2. Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan demikian?
-
-Hal tersebut dilakukan untuk memudahkan import file plan.dart dan task.dart pada file lain (hanya membutuhkan satu perintah import).
-3. Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
-
+2. Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan demikian?\
+    **Jawab:** \
+    Hal tersebut dilakukan untuk memudahkan import file plan.dart dan task.dart pada file lain (hanya membutuhkan satu perintah import).
+3. Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?\
+**Jawab**
 Karena variabel plan digunakan untuk menyimpan instance dari model Plan, yang merepresentasikan rencana atau daftar tugas dalam aplikasi. Variabel tersebut dibuat konstanta agar tetap dan tidak berubah setelah dibuat.
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
